@@ -19,6 +19,10 @@ export class VehiculoListComponent implements OnInit {
     });
   }
 
+  calcularEstadistica():void{
+
+  }
+
   ngOnInit() {
     this.getVehiculos();
   }
